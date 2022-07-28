@@ -31,7 +31,6 @@ class _FullTransactionListState extends State<FullTransactionList>
 
     return Scaffold(
       appBar: AppBar(
-        centerTitle: true,
         title: const Text('ALL TRANSACTIONS',style: appBarStyle,),
         backgroundColor: maincolor,
         actions: [

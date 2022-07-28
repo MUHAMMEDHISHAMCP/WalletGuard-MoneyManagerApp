@@ -26,6 +26,10 @@ main() async {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
     statusBarColor: maincolor,
   ));
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown
+  ]);
 
   runApp(const MyApp());
 }
@@ -47,6 +51,4 @@ class MyApp extends StatelessWidget {
         ),
         home: SplashScreen());
   }
-
- 
 }

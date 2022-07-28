@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.money_manager">
+    package="com.wallet_guard">
    <application
         android:label="Wallet Guard"
         android:name="${applicationName}"

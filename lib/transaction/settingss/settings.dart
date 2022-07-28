@@ -244,7 +244,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 child:
                     Column(mainAxisAlignment: MainAxisAlignment.end, children: [
               Text(
-                'v.1.0',
+                'v.1.0.1',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                 ),
